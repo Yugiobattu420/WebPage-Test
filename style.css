@@ -1,0 +1,388 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+header {
+  height: 130px;
+  margin-top: 0;
+  margin-left: 0;
+}
+header .info {
+  height: 35px;
+  color: #17391d;
+  background-color: #f2f8ec;
+  padding-right: 70px;
+  padding-left: 100px;
+  padding-top: 15px;
+  font-size: 0.9rem;
+  font-weight: 550;
+  letter-spacing: 0.9px;
+  font-family: Cambria;
+  display: flex;
+  flex-direction: row;
+}
+header .info #info__adr {
+  flex-basis: 625px;
+}
+header .info #info__tel {
+  flex-basis: 225px;
+}
+header .task {
+  display: flex;
+  padding-top: 10px;
+  padding-left: 100px;
+  padding-right: 70px;
+}
+header .task img {
+  width: 300px;
+  height: 100%;
+}
+header .task .task__button {
+  margin-left: 90px;
+  padding-top: 14px;
+}
+header .task .task__button button {
+  width: 120px;
+  height: 45px;
+  background: none;
+  border: none;
+  font-size: 0.9rem;
+  font-weight: 530;
+}
+header .task .task__button #call {
+  background: #85d60a;
+  border-radius: 2.2rem;
+  color: azure;
+}
+.intro .intro__top {
+  background-image: linear-gradient(rgba(15, 15, 15, 0.7), rgba(15, 15, 15, 0.7)), url(https://cayxanhdaingan.com/wp-content/uploads/2021/09/blog-bg-4.png);
+  height: 330px;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: azure;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 330px;
+  font-size: 2.4rem;
+}
+.contentPara {
+  text-align: centers;
+  font-style: italic;
+  line-height: 1.5rem;
+}
+.contentPara p {
+  padding-top: 80px;
+  padding-left: 100px;
+  padding-bottom: 60px;
+  font-size: 17px;
+}
+.contentImg {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+.contentImg img {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 60px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  overflow: hidden;
+}
+.why {
+  background-color: #054210;
+  height: 430px;
+  display: flex;
+  flex-direction: row;
+}
+.why img {
+  height: inherit;
+}
+.why .why__content {
+  color: azure;
+  padding-top: 60px;
+  padding-left: 80px;
+}
+.why .why__content #w1 {
+  font-size: 23px;
+}
+.why .why__content #w2 {
+  padding-top: 15px;
+  font-size: 35px;
+}
+.why .why__content #w3 {
+  display: block;
+  width: 90px;
+  height: 5px;
+  background-color: #80bd27;
+  margin-left: 5px;
+  margin-top: 20px;
+}
+.why .why__content #w4 {
+  padding-top: 30px;
+  padding-left: 5px;
+  font-size: 18px;
+}
+.why .why__content .Why__reason {
+  padding-top: 25px;
+  margin-left: 5px;
+  line-height: 2rem;
+  font-size: 19px;
+}
+.why .why__content .Why__reason li {
+  background-image: url(https://www.shareicon.net/data/256x256/2016/08/20/817720_check_395x512.png);
+  background-size: 1.7rem;
+  background-repeat: no-repeat;
+  background-position: left center;
+  list-style: none;
+  padding-left: 40px;
+}
+.about {
+  display: flex;
+  flex-direction: row;
+}
+.about .about__customer {
+  flex-basis: 500px;
+  padding-top: 45px;
+  padding-left: 25px;
+  padding-bottom: 50px;
+  color: #17391d;
+  font-size: 20px;
+}
+.about .about__customer p {
+  padding-top: 40px;
+  line-height: 1.5rem;
+  font-size: 18px;
+}
+.about .about__customer .about__customer__number {
+  display: flex;
+  flex-direction: row;
+  color: #17391d;
+}
+.about .about__customer .about__customer__number #number215 {
+  padding-top: 70px;
+  flex-basis: 200px;
+}
+.about .about__customer .about__customer__number #number215 h1 {
+  font-size: 40px;
+}
+.about .about__customer .about__customer__number #number215 h2 {
+  padding-top: 15px;
+  font-size: 16px;
+}
+.about .about__customer .about__customer__number #number320 {
+  padding-left: 10px;
+  padding-top: 70px;
+}
+.about .about__customer .about__customer__number #number320 h1 {
+  font-size: 40px;
+}
+.about .about__customer .about__customer__number #number320 h2 {
+  padding-top: 15px;
+  font-size: 16px;
+}
+.about .about__commit {
+  flex-basis: 500px;
+  padding-top: 45px;
+  padding-left: 25px;
+  color: #17391d;
+  font-size: 20px;
+  background-color: #faf5f2;
+}
+.about .about__commit #para1 {
+  padding-top: 40px;
+  line-height: 1.5rem;
+  font-size: 18px;
+}
+.about .about__commit #para2 {
+  padding-top: 15px;
+  line-height: 1.5rem;
+  font-size: 18px;
+}
+.about .about__commit img {
+  padding-top: 40px;
+  padding-left: 90px;
+}
+.about .about__require {
+  flex-basis: 450px;
+  padding-top: 45px;
+  padding-left: 55px;
+  color: #17391d;
+  font-size: 20px;
+}
+.about .about__require .about__require__form {
+  padding-top: 40px;
+}
+.about .about__require .about__require__form input {
+  margin-bottom: 1rem;
+  padding-left: 1rem;
+  width: 20rem;
+  height: 2.1rem;
+  border-radius: 2.5rem;
+  font-style: italic;
+}
+.about .about__require .about__require__form select {
+  margin-bottom: 1rem;
+  padding-left: 1rem;
+  width: 21.25rem;
+  height: 2.4rem;
+  border-radius: 2.5rem;
+  font-style: italic;
+}
+.about .about__require .about__require__form button {
+  margin-bottom: 1rem;
+  padding-left: 1rem;
+  width: 21.25rem;
+  height: 2.4rem;
+  border-radius: 2.5rem;
+  text-align: center;
+  font-weight: 550;
+  color: azure;
+  background-color: #17391d;
+}
+.process {
+  background-color: #f4f5f0;
+  color: #17391d;
+  padding-bottom: 65px;
+}
+.process .process__top {
+  text-align: center;
+  font-size: 22px;
+}
+.process .process__top h2 {
+  padding-top: 70px;
+}
+.process .process__top p {
+  padding-top: 30px;
+  font-size: 18px;
+  line-height: 1.25rem;
+}
+.process .process__list {
+  display: flex;
+  flex-direction: row;
+  padding-top: 80px;
+}
+.process .process__list .process__list__advise {
+  flex-basis: 500px;
+  text-align: center;
+}
+.process .process__list .process__list__advise .advise__img {
+  margin-left: 11rem;
+  background-color: #fff;
+  width: 95px;
+  height: 80px;
+  padding-top: 15px;
+  border-radius: 1rem;
+}
+.process .process__list .process__list__advise h2 {
+  padding-top: 30px;
+  font-size: 22px;
+}
+.process .process__list .process__list__advise p {
+  padding-top: 20px;
+  line-height: 1.25rem;
+}
+.process .process__list .process__list__work {
+  flex-basis: 500px;
+  text-align: center;
+}
+.process .process__list .process__list__work .work__img {
+  margin-left: 10.5rem;
+  background-color: #fff;
+  width: 95px;
+  height: 80px;
+  padding-top: 15px;
+  border-radius: 1rem;
+}
+.process .process__list .process__list__work h2 {
+  padding-top: 30px;
+  font-size: 22px;
+}
+.process .process__list .process__list__work p {
+  padding-top: 20px;
+  line-height: 1.25rem;
+}
+.process .process__list .process__list__complete {
+  flex-basis: 500px;
+  text-align: center;
+}
+.process .process__list .process__list__complete .complete__img {
+  margin-left: 10.5rem;
+  background-color: #fff;
+  width: 95px;
+  height: 80px;
+  padding-top: 15px;
+  border-radius: 1rem;
+}
+.process .process__list .process__list__complete h2 {
+  padding-top: 30px;
+  font-size: 22px;
+}
+.process .process__list .process__list__complete p {
+  padding-top: 20px;
+  line-height: 1.25rem;
+}
+footer {
+  height: 530px;
+  background-color: #0d3c00;
+  text-align: center;
+  font-size: 18px;
+  color: azure;
+}
+footer img {
+  padding-top: 70px;
+  vertical-align: middle;
+}
+footer .footer__para {
+  padding-top: 40px;
+  line-height: 1.7rem;
+  font-style: italic;
+  font-weight: normal;
+  letter-spacing: 0.9px;
+}
+footer .footer__menu {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+footer .footer__menu li {
+  padding-left: 60px;
+}
+footer .footer__social {
+  display: flex;
+  flex-direction: row;
+  padding-left: 510px;
+  list-style: none;
+}
+footer .footer__social li {
+  font-size: 30px;
+  flex-basis: 80px;
+  padding-top: 60px;
+}
+footer .footer__copyright {
+  background-color: #0f200a;
+  margin-top: 80px;
+  height: 70px;
+}
+footer .footer__copyright .design__info {
+  padding-top: 28px;
+  padding-left: 100px;
+  list-style: none;
+}
+footer .footer__copyright .design__info li {
+  float: left;
+  padding-left: 0.35rem;
+}
+footer .footer__copyright .design__info #info1 {
+  color: #80bd27;
+}
+footer .footer__copyright .design__info #info2 {
+  color: #80bd27;
+}
+footer .footer__copyright .design__info #MSDN {
+  padding-left: 250px;
+}
